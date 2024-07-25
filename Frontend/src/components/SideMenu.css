@@ -1,0 +1,27 @@
+.sidecontainer{
+    display: flex;
+        flex-direction: column;
+        width: 17%;
+        height: 95vh;
+        position: relative;
+        left: 0;
+        /* text-align:left !important; */
+        background: #f1f1f1;
+        padding: 1% 0% 0 2.5%;
+}
+p{
+    text-align: left;
+}
+
+.pTag{
+    position: relative;
+    right: 8%;
+    top: 40%;
+    color: black;
+}
+
+.icon{
+    position: relative;
+    top: 2px;
+    color: black;
+}

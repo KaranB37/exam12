@@ -1,0 +1,125 @@
+@import url("https://fonts.googleapis.com/css2?family=Urbanist:wght@100;200;400&display=swap");
+
+body {
+  margin: 0;
+  font-family: "Urbanist", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: "Urbanist", sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+:root {
+  --main-color: #00a1d9;
+  --form-field: #d4d4d4;
+}
+
+h4 {
+  margin-block-start: 0.2em;
+  margin-block-end: 0.2em;
+  font-size: 48px;
+  text-align: center;
+}
+
+p {
+  font-size: 16px;
+  text-align: center;
+  color: var(--form-field);
+}
+
+.required {
+  color: red;
+}
+
+.label {
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.form-input {
+  margin-left: 70px;
+  margin-top: 30px;
+  width: 70%;
+  display: grid;
+  vertical-align: middle;
+  gap: 15px;
+}
+
+input {
+  width: 100%;
+  padding: 12px 10px;
+  margin: 8px 0;
+}
+
+button {
+  background-color: var(--main-color);
+  border: none;
+  color: white;
+  padding: 5px;
+  display: inline-block;
+  font-size: 16px;
+  margin: 30px 150px;
+  border-radius: 5px;
+}
+
+.password-container {
+  position: relative;
+}
+
+.fa-eye {
+  position: absolute;
+  top: 35%;
+  right: 6%;
+  cursor: pointer;
+}
+
+.company-logo,
+.login-cred {
+  float: left;
+  width: 50%;
+  padding: 20px;
+}
+
+@media screen and (orientation: portrait) {
+  h4 {
+    font-size: 30px;
+    text-align: center;
+  }
+  p {
+    font-size: 9px;
+  }
+
+  .form-input {
+    margin-left: 40px;
+    gap: 5px;
+  }
+
+  input {
+    width: 80%;
+    padding: 10px 8px;
+  }
+
+  button {
+    font-size: 16px;
+    margin: 30px 150px;
+    border-radius: 5px;
+  }
+  .fa-eye {
+    right: 25%;
+  }
+
+  .company-logo img {
+    height: 250px;
+    margin-left: 70px;
+  }
+  .company-logo,
+  .login-cred {
+    width: auto;
+  }
+}

@@ -1,0 +1,51 @@
+[
+    {"semester_id":"1","semester_name":"1","subjects":[
+         {"subject_id":"FEC101","subject_name":"Mathematics-I","semester_id":"1", "term_work":"20","oral":"25","prac":"25","theory":"80"},
+         {"subject_id":"FEC102","subject_name":"Physics-I","semester_id":"1", "term_work":"20","oral":"25","prac":"25","theory":"80"},
+         {"subject_id":"FEC103","subject_name":"Chemistry-I","semester_id":"1", "term_work":"20","oral":"25","prac":"25","theory":"80"},
+         {"subject_id":"FEC104","subject_name":"Mechanics","semester_id":"1", "term_work":"20","oral":"25","prac":"25","theory":"80"},
+         {"subject_id":"FEC105","subject_name":"Basic Electrical","semester_id":"1", "term_work":"20","oral":"25","prac":"25","theory":"80"}
+        ]},
+    
+    {"semester_id":"2","semester_name":"2","subjects":[
+         {"subject_id":"FEC201","subject_name":" Mathematics-II","semester_id":"2", "term_work":"20","oral":"25","prac":"25","theory":"80"},
+        {"subject_id":"FEC202","subject_name":"Physics-II","semester_id":"2", "term_work":"20","oral":"25","prac":"25","theory":"80"},
+        {"subject_id":"FEC203","subject_name":"Chemistry-II","semester_id":"2", "term_work":"20","oral":"25","prac":"25","theory":"80"},
+        {"subject_id":"FEC204","subject_name":"Engineering Graphics","semester_id":"2", "term_work":"20","oral":"25","prac":"25","theory":"80"},
+        {"subject_id":"FEC205","subject_name":"C programming ","semester_id":"2", "term_work":"20","oral":"25","prac":"25","theory":"80"},
+        {"subject_id":"FEC206","subject_name":"PCE-I","semester_id":"2", "term_work":"20","oral":"25","prac":"25","theory":"80"}
+    ]},
+    
+    {"semester_id":"3","semester_name":"3","subjects":[
+        {"subject_id":"CSC301","subject_name":"Applied Mathematics-III","semester_id":"3", "term_work":"20","oral":"25","prac":"25","theory":"80"},
+        {"subject_id":"CSC302","subject_name":"OOP","semester_id":"3", "term_work":"20","oral":"25","prac":"25","theory":"80"},
+        {"subject_id":"CSC303","subject_name":"Data Structure","semester_id":"3", "term_work":"20","oral":"25","prac":"25","theory":"80"},
+        {"subject_id":"CSC304","subject_name":"DLDA","semester_id":"3", "term_work":"20","oral":"25","prac":"25","theory":"80"},
+        {"subject_id":"CSC305","subject_name":"Discrete Structures","semester_id":"3", "term_work":"20","oral":"25","prac":"25","theory":"80"},
+        {"subject_id":"CSC306","subject_name":"ECCF","semester_id":"3", "term_work":"20","oral":"25","prac":"25","theory":"80"}
+    ]},
+    
+    {"semester_id":"4","semester_name":"4","subjects":[
+        {"subject_id":"CSC401 ","subject_name":"Applied Mathematics-IV","semester_id":"4", "term_work":"20","oral":"25","prac":"25","theory":"80"},
+        {"subject_id":"CSC402 ","subject_name":"Analysis of Algorithms ","semester_id":"4", "term_work":"20","oral":"25","prac":"25","theory":"80"},
+        {"subject_id":"CSC403 ","subject_name":"DBMS","semester_id":"4", "term_work":"20","oral":"25","prac":"25","theory":"80"},
+        {"subject_id":"CSC404 ","subject_name":"Operating System","semester_id":"4", "term_work":"20","oral":"25","prac":"25","theory":"80"},
+        {"subject_id":"CSC405 ","subject_name":"Microprocessor","semester_id":"4", "term_work":"20","oral":"25","prac":"25","theory":"80"}
+    ]},
+    
+    {"semester_id":"5","semester_name":"5","subjects":[
+        {"subject_id":"CSC501","subject_name":"TCS","semester_id":"5", "term_work":"20","oral":"25","prac":"25","theory":"80"},
+        {"subject_id":"CSC502","subject_name":"Software Engineering","semester_id":"5", "term_work":"20","oral":"25","prac":"25","theory":"80"},
+        {"subject_id":"CSC503","subject_name":"Computer Network","semester_id":"5", "term_work":"20","oral":"25","prac":"25","theory":"80"},
+        {"subject_id":"CSC504","subject_name":"DWM","semester_id":"5", "term_work":"20","oral":"25","prac":"25","theory":"80"},
+        {"subject_id":"CSC505","subject_name":"Internet Programming","semester_id":"5", "term_work":"20","oral":"25","prac":"25","theory":"80"}
+    ]},
+    
+    {"semester_id":"6","semester_name":"6","subjects":[
+        {"subject_id":"CSC601","subject_name":"SPCC ","semester_id":"6", "term_work":"20","oral":"25","prac":"25","theory":"80"},
+        {"subject_id":"CSC602","subject_name":"CSS","semester_id":"6", "term_work":"20","oral":"25","prac":"25","theory":"80"},
+        {"subject_id":"CSC603","subject_name":"Mobile Computing","semester_id":"6", "term_work":"20","oral":"25","prac":"25","theory":"80"},
+        {"subject_id":"CSC604","subject_name":"Artificial Intelligence","semester_id":"6", "term_work":"20","oral":"25","prac":"25","theory":"80"},
+        {"subject_id":"CSDLO601x","subject_name":"Internet Of Things","semester_id":"6", "term_work":"20","oral":"25","prac":"25","theory":"80"}
+    ]}
+    ]

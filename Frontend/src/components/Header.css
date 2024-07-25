@@ -1,0 +1,25 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    padding: 0% 4%;
+    height: 20%;
+    /* background: lightgrey; */
+    border-bottom: 1px solid lightgrey;
+    box-shadow: 0 0 1px;
+}
+
+h2 {
+    margin-top: -38px;
+    margin-left: 50px;
+}
+
+.right {
+    display: grid;
+    place-content: center;
+}
+
+.left img {
+    width: 40px;
+    height: 40px;
+    margin-top: 10px;
+}

@@ -1,0 +1,136 @@
+.mainContent {
+  background-color: #ffffff;
+  width: 90%;
+  padding: 2.5% 5%;
+}
+
+.dashContainer {
+  display: flex;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  top: 0;
+  width: 17%;
+  height: 88vh;
+  position: relative;
+  left: 0;
+  text-align: center;
+  background: #f1f1f1;
+}
+
+.fontSizeSmall {
+  font-size: small;
+}
+
+.btn,
+.edit,
+.editcancel {
+  border: none;
+  color: white;
+  background: rgb(72, 72, 207);
+  width: 5rem;
+  height: 1.8rem;
+  margin: auto 0;
+  position: relative;
+  top: 8px;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.btn:hover,
+.edit:hover {
+  background-color: rgb(18, 18, 118);
+}
+
+.col-div1 {
+  display: flex;
+  /* justify-content: space-evenly; */
+  width: 49%;
+}
+
+.col-div {
+  display: grid;
+  grid-auto-rows: 1fr;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 20px;
+  /* width: 100%; */
+}
+
+.select {
+  width: 20vw;
+  border-radius: 5px;
+  border: 1px solid lightgrey;
+  padding: 5px;
+}
+
+.s1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 46%;
+}
+.mapping p {
+  font-weight: bold;
+  font-size: larger;
+}
+.s1 span {
+  font-style: bold;
+  font-size: 18px;
+  padding: 5px;
+}
+.form-control {
+  padding: 5px;
+}
+.mapping .text-feild {
+  margin: 0;
+  padding: 5px;
+}
+
+.tableContent {
+  margin-top: 5%;
+}
+
+.edit,
+.editcancel {
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.editcancel {
+  background-color: rgb(234, 30, 30);
+}
+
+table,
+td,
+th {
+  margin: 0;
+  border-collapse: collapse;
+  border: 1px solid lightgrey;
+  text-align: left;
+}
+
+th,
+td {
+  padding: 4px 7px;
+}
+
+table {
+  width: 85%;
+}
+
+.font-weight-600 {
+  font-weight: 600;
+}
+
+.save {
+  position: relative;
+  top: 6%;
+  left: 40%;
+}
+
+span.text-danger {
+  color: red;
+}
